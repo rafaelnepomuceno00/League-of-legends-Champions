@@ -19,7 +19,7 @@ function fetchData() {
                 return ` <div class='card'>
                 <img class="img-card" src="${imgChampions}${char.id}_0.jpg">
                     <h5>${char.id}</h5>
-                    <p> " ${char.title} "</p>
+                    <p id="txt"> " ${char.title} "</p>
                     
                     <p> ${char.tags } </p>
                      </div>`

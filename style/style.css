@@ -6,14 +6,16 @@
 h1 {
     margin-top: 10px;
     margin-bottom: -25px;
-    color: rgb(175, 138, 57);
+    color: rgb(219, 161, 36);
     text-align: center;
-    font-family: 'Cinzel', serif;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 body {
     background-color: black;
+    background-image: url('/home/rafael/Documentos/league of legends api/League-of-legends-Champions/assets/Summoners-Rift.jpg');
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
 }
 
 .container {
@@ -31,18 +33,28 @@ body {
     border-radius: 10px;
     justify-content: center;
     text-align: center;
-    background-color: azure;
+    background-color: rgb(226, 255, 255);
     max-width: 450px;
     height: 320px;
     width: 378px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: rgb(135, 158, 158);
 }
 
 .img-card {
+    border-radius: 20px;
     padding-top: 10px;
     height: 200px;
 }
 
 h5 {
     font-size: 50px;
-    font-family: 'Cinzel', serif;
+}
+
+#txt {
+    text-transform: capitalize;
 }
