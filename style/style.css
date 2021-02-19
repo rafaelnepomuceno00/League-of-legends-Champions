@@ -1,24 +1,24 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
-
+*/
 h1 {
     margin-top: 10px;
     margin-bottom: -25px;
     color: rgb(219, 161, 36);
     text-align: center;
     font-size: 75px;
-}
+} 
 
 body {
     background-color: black;
-    background-image: url('/home/rafael/Documentos/league of legends api/League-of-legends-Champions/assets/Summoners-Rift.jpg');
+    background-image: url('/assets/Summoners-Rift.jpg');
     background-attachment: fixed;
     font-family: 'Cinzel', serif;
 }
 
-.container {
+ .container {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -26,9 +26,9 @@ body {
     justify-content: space-evenly;
     /*grid-template: 1fr 1fr 1fr 1fr/1fr 1fr 1fr;*/
     /*gap: 20px;*/
-}
+} 
 
-.card {
+/* .card {
     margin-top: 20px;
     border-radius: 10px;
     justify-content: center;
@@ -38,14 +38,14 @@ body {
     height: 320px;
     width: 378px;
     margin-bottom: 10px;
-}
-
+} */
+/* 
 .card:hover {
     cursor: pointer;
     background-color: rgb(135, 158, 158);
-}
+} */
 
-.img-card {
+/* .img-card {
     border-radius: 20px;
     padding-top: 10px;
     height: 200px;
@@ -57,4 +57,4 @@ h5 {
 
 #txt {
     text-transform: capitalize;
-}
+} */

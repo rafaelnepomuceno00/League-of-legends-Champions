@@ -17,11 +17,11 @@ function fetchData() {
             const champions = Object.values(data.data)
             const champion = champions.map(char => {
                 return ` <div class='card'>
-                <img class="img-card" src="${imgChampions}${char.id}_0.jpg">
-                    <h5>${char.id}</h5>
-                    <p id="txt"> " ${char.title} "</p>
-                    
-                    <p> ${char.tags } </p>
+                <img class="card-img-top" src="${imgChampions}${char.id}_0.jpg">
+                    <h5 class='card-title' >${char.id}</h5>
+                    <p class='card-text'> " ${char.title} "</p>
+                    <br>
+                    <p class='card-text'> ${char.tags } </p>
                      </div>`
             }).join('')
             console.log(champions)
